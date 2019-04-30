@@ -1,0 +1,186 @@
+body{
+	background-image: radial-gradient(#fff5f3, #ffccc0);
+	font-family: Helvetica;
+	font-size: 5em;
+	letter-spacing: -8px;
+	font-weight: 700;
+	// display: inline;
+	// margin-right:300px;
+	// margin-left:300px;
+
+}
+
+.parallax{
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto; 
+}
+
+.parallax-layer{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 100vh 0; 
+}
+
+#bottomblock{
+	background-color: #155450;
+    height: 1000px;
+    width: 100%;
+	transform: translateZ(0) ;
+	left: 0px;
+	top:1850px;
+	padding:0;
+	// transform: translateZ(-1px) scale(1);
+}
+
+#topblock{
+	color: white;
+	background-color: #155450;
+    height: 300px;
+    width: 100%;
+	transform: translateZ(0);
+	left: 0px;
+	top:0px;
+	padding:0;
+	text-align: center;
+	padding-top: 50px;
+	// transform: translateZ(-1px) scale(1);
+}
+
+#parallax-fore{
+	background-image: url("../img/rhand.png"); 
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+      height: 1200px;
+  width: 100%;
+	transform: translateZ(0) scale(.5) ;
+	left: 350px;
+	top:-450px;
+	// transform: translateZ(-1px) scale(1);
+}
+
+#parallax-lefthand{
+	background-image: url("../img/lhand.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+      height: 1200px;
+  width: 100%;
+	transform: translateZ(0) scale(.4) ;
+	left: -55px;
+	top:250px;
+	// transform: translateZ(-1px) scale(1);
+}
+
+#parallax-thand{
+	background-image: url("../img/thand.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+      height: 1200px;
+  width: 100%;
+	transform: translateZ(0) scale(.3) ;
+	left: -175px;
+	top:-700px;
+	// transform: translateZ(-1px) scale(1);
+}
+
+#parallax-blplant{
+	background-image: url("../img/blplant.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+      height: 1200px;
+  width: 100%;
+	transform: translateZ(0) scale(.8) ;
+	left: -150px;
+	top:500px;
+	// transform: translateZ(-1px) scale(1);
+}
+
+#parallax-brplant{
+	background-image: url("../img/brplant.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+      height: 1200px;
+  width: 100%;
+	transform: translateZ(0) scale(.3) ;
+	left: 500px;
+	top:415px;
+	// transform: translateZ(-1px) scale(1);
+}
+
+#parallax-tlplant{
+	background-image: url("../img/tlplant.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+      height: 1200px;
+  width: 100%;
+	transform: translateZ(0) scale(.3) ;
+	left: -450px;
+	top:-690px;
+	// transform: translateZ(-1px) scale(1);
+}
+
+#parallax-lips{
+	background-image: url("../img/lips.png");
+	opacity: 0.75;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+      height: 1200px;
+  width: 100%;
+	transform: translateZ(-1px) scale(2) ;
+	left:0px;
+	top:-250px;
+	// transform: translateZ(-1px) scale(1);
+}
+
+
+#parallax-back{
+	background-image: url("../img/face.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+      height: 1200px;
+  width: 100%;
+	top:500;
+	padding:0;
+	transform: translateZ(-3px) scale(4);
+	margin-top: 800px;
+	/*transform: translateZ(-2px) scale(3);*/
+}
+
+#rain{
+	background-image: url("../img/rain.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.75;
+    background-size: contain;
+      height: 1200px;
+  width: 100%;
+	top:300;
+	padding:0;
+	transform: translateZ(-6px) scale(7);
+	margin-top: 800px;
+	/*transform: translateZ(-2px) scale(3);*/
+}
+
+#words{
+	color: white;
+    height: 300px;
+    width: 100%;
+	transform: translateZ(-5px) scale(4);
+	left: 0px;
+	top:-900px;
+	padding:0;
+	text-align: center;
+	// transform: translateZ(-1px) scale(1);
+}
